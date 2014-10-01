@@ -28,11 +28,6 @@ namespace EfDeploySample.Controllers
 
             return View();
         }
-        public ActionResult NewView()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
+   
     }
 }
